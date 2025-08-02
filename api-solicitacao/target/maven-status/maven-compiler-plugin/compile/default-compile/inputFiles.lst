@@ -1,0 +1,14 @@
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\model\SolicitacaoItem.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\model\Solicitacao.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\controller\SolicitacaoController.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\Main.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\dto\ProdutoDTO.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\config\OpenApiConfig.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\dto\SolicitacaoResponseDTO.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\dto\SolicitacaoItemRequestDTO.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\exception\ProductNotAvailableException.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\dto\SolicitacaoItemResponseDTO.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\cliente\CatalogServiceClient.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\exception\GlobalExceptionHandler.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\service\SolicitacaoService.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-solicitacao\src\main\java\br\com\solicitacao\dto\SolicitacaoRequestDTO.java

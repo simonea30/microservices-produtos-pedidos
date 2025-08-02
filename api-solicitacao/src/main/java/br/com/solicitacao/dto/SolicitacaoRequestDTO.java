@@ -7,7 +7,7 @@ import jakarta.validation.constraints.Size;
 
 import java.util.List;
 
-public class OrderRequestDTO {
+public class SolicitacaoRequestDTO {
 
     @NotBlank(message = "Nome do cliente é obrigatório")
     @Size(min = 2, max = 100, message = "Nome deve ter entre 2 e 100 caracteres")
@@ -18,11 +18,11 @@ public class OrderRequestDTO {
 
     @NotEmpty(message = "Lista de itens não pode estar vazia")
     @Valid
-    private List<OrderItemRequestDTO> itens;
+    private List<SolicitacaoItemRequestDTO> itens;
 
-    public OrderRequestDTO() {}
+    public SolicitacaoRequestDTO() {}
 
-    public OrderRequestDTO(String nomeCliente, String endereco, List<OrderItemRequestDTO> itens) {
+    public SolicitacaoRequestDTO(String nomeCliente, String endereco, List<SolicitacaoItemRequestDTO> itens) {
         this.nomeCliente = nomeCliente;
         this.endereco = endereco;
         this.itens = itens;
@@ -44,11 +44,11 @@ public class OrderRequestDTO {
         this.endereco = endereco;
     }
 
-    public List<OrderItemRequestDTO> getItens() {
+    public List<SolicitacaoItemRequestDTO> getItens() {
         return itens;
     }
 
-    public void setItens(List<OrderItemRequestDTO> itens) {
+    public void setItens(List<SolicitacaoItemRequestDTO> itens) {
         this.itens = itens;
     }
 }

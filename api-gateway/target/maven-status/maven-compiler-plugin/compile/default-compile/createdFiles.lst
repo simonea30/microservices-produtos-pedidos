@@ -1,0 +1,4 @@
+br\com\gateway\ApiGatewayApplication.class
+br\com\gateway\config\SecurityConfig.class
+br\com\gateway\config\AuthenticationFilter$Config.class
+br\com\gateway\config\AuthenticationFilter.class

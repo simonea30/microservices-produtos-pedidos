@@ -1,0 +1,10 @@
+br\com\solicitacao\dto\SolicitacaoRequestDTO.class
+br\com\solicitacao\exception\GlobalExceptionHandler.class
+br\com\solicitacao\dto\SolicitacaoResponseDTO.class
+br\com\solicitacao\config\OpenApiConfig.class
+br\com\solicitacao\model\Solicitacao.class
+br\com\solicitacao\exception\ProductNotAvailableException.class
+br\com\solicitacao\dto\SolicitacaoItemResponseDTO.class
+br\com\solicitacao\dto\SolicitacaoItemRequestDTO.class
+br\com\solicitacao\Main.class
+br\com\solicitacao\model\SolicitacaoItem.class

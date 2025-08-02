@@ -1,7 +1,7 @@
 package br.com.solicitacao.exception;
 
 public class ProductNotAvailableException extends RuntimeException {
-  public ProductNotAvailableException(String message) {
-    super(message);
-  }
+    public ProductNotAvailableException(String message) {
+        super(message);
+    }
 }

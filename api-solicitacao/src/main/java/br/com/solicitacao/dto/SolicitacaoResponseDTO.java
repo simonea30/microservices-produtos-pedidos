@@ -4,21 +4,21 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
-public class OrderResponseDTO {
+public class SolicitacaoResponseDTO {
 
     private String id;
     private String nomeCliente;
     private String endereco;
-    private List<OrderItemResponseDTO> itens;
+    private List<SolicitacaoItemResponseDTO> itens;
     private BigDecimal valorTotal;
     private String status;
     private LocalDateTime dataHoraCriacao;
 
-    public OrderResponseDTO() {}
+    public SolicitacaoResponseDTO() {}
 
-    public OrderResponseDTO(String id, String nomeCliente, String endereco,
-                            List<OrderItemResponseDTO> itens, BigDecimal valorTotal,
-                            String status, LocalDateTime dataHoraCriacao) {
+    public SolicitacaoResponseDTO(String id, String nomeCliente, String endereco,
+                                  List<SolicitacaoItemResponseDTO> itens, BigDecimal valorTotal,
+                                  String status, LocalDateTime dataHoraCriacao) {
         this.id = id;
         this.nomeCliente = nomeCliente;
         this.endereco = endereco;
@@ -52,11 +52,11 @@ public class OrderResponseDTO {
         this.endereco = endereco;
     }
 
-    public List<OrderItemResponseDTO> getItens() {
+    public List<SolicitacaoItemResponseDTO> getItens() {
         return itens;
     }
 
-    public void setItens(List<OrderItemResponseDTO> itens) {
+    public void setItens(List<SolicitacaoItemResponseDTO> itens) {
         this.itens = itens;
     }
 

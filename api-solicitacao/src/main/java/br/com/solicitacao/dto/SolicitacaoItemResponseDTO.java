@@ -3,7 +3,7 @@ package br.com.solicitacao.dto;
 
 import java.math.BigDecimal;
 
-public class OrderItemResponseDTO {
+public class SolicitacaoItemResponseDTO {
 
     private Long productId;
     private String nomeProduct;
@@ -12,10 +12,10 @@ public class OrderItemResponseDTO {
     private Integer quantidade;
     private BigDecimal subtotal;
 
-    public OrderItemResponseDTO() {}
+    public SolicitacaoItemResponseDTO() {}
 
-    public OrderItemResponseDTO(Long productId, String nomeProduct, String descricaoProduct,
-                                BigDecimal precoUnitario, Integer quantidade, BigDecimal subtotal) {
+    public SolicitacaoItemResponseDTO(Long productId, String nomeProduct, String descricaoProduct,
+                                      BigDecimal precoUnitario, Integer quantidade, BigDecimal subtotal) {
         this.productId = productId;
         this.nomeProduct = nomeProduct;
         this.descricaoProduct = descricaoProduct;

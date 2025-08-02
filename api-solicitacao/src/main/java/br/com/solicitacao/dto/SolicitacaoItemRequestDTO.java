@@ -4,7 +4,7 @@ package br.com.solicitacao.dto;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 
-public class OrderItemRequestDTO {
+public class SolicitacaoItemRequestDTO {
 
     @NotNull(message = "ID do produto é obrigatório")
     private Long productId;
@@ -13,9 +13,9 @@ public class OrderItemRequestDTO {
     @Positive(message = "Quantidade deve ser maior que zero")
     private Integer quantidade;
 
-    public OrderItemRequestDTO() {}
+    public SolicitacaoItemRequestDTO() {}
 
-    public OrderItemRequestDTO(Long productId, Integer quantidade) {
+    public SolicitacaoItemRequestDTO(Long productId, Integer quantidade) {
         this.productId = productId;
         this.quantidade = quantidade;
     }

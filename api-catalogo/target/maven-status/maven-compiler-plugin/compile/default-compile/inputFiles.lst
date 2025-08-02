@@ -1,0 +1,10 @@
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\config\OpenApiConfig.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\dto\ProdutoResponseDTO.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\service\ProdutoService.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\dto\ProdutoRequestDTO.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\repository\ProdutoRepository.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\exception\ProdutoExceptionHandler.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\Main.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\exception\ProdutoNotFoundException.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\entity\Produto.java
+C:\Desenvolvimento\api-desafio-dio-microservices\api-catalogo\src\main\java\br\com\catalogo\controller\ProdutoController.java

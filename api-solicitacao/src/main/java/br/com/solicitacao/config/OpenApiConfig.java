@@ -1,4 +1,4 @@
-package br.com.solicitacao.cliente;
+package br.com.solicitacao.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -14,8 +14,8 @@ public class OpenApiConfig {
     public OpenAPI orderServiceOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Order Service API")
-                        .description("API do serviço de pedidos - DIO Challenge")
+                        .title("API Solicitacao")
+                        .description("API do serviço de Solicitacao")
                         .version("v1.0")
                         .contact(new Contact()
                                 .name("DIO Challenge")
