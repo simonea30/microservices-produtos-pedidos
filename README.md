@@ -120,17 +120,6 @@ curl -X GET "http://localhost:8080/solicitacao" -H "Authorization: Bearer test"
 - Como implementar autenticação centralizada
 - Como documentar APIs com Swagger
 
-## Problemas comuns
-
-**Erro 503 no Gateway?**
-→ Aguarde todos os serviços se registrarem no Eureka
-
-**Serviço não aparece no Eureka?**
-→ Verifique se o Eureka está rodando primeiro
-
-**Erro de autenticação?**
-→ Use o header: `Authorization: Bearer test`
-
 ---
 
 **Desenvolvido Simone Almeida Lima** 🚀
